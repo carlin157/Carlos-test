@@ -1,1 +1,11 @@
-# Carlos-test
+biblioteca Local = loadstring (jogo:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+janela Local = Library.CreateLib ("TCHOW VONTADE DE COMER UM XEBIU", "Sentinel")
+local Tab = Window:NewTab("TESTANDO XEBIU")
+local Section = Tab:NewSection("OH XEBIUSAO")
+Section:UpdateSection("Section New Title")
+Section:NewLabel("Volvo")
+label:UpdateLabel("Scania)
+Section:NewButton ("Testando xebiuzin", "loadstring(game:HttpGet"https://raw.githubusercontent.com/Laelmano24/Rael-Hub/main/main.txt")()", function()
+    print ("Clicado")
+fim)
